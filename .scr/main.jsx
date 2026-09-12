@@ -75,7 +75,7 @@ const projects = [
     description:
       "An intelligent air-quality prediction system using feature engineering, machine learning and time-series forecasting with explainable AI insights.",
     icon: BarChart3,
-    image: "/projects/aqi.png",
+    image: "/images/AQI.jpg",
     featured: true,
     github: "https://github.com/FizaAnwar",
     demo: "#",
@@ -119,11 +119,11 @@ const projects = [
 
   {
     title: "Customer Churn Prediction",
-    stack: "Python • K-Means • Pandas • Streamlit",
+    stack: "Python • Pandas • Streamlit",
     description:
       "A customer analytics project using K-Means clustering to identify groups based on purchasing behavior and spending patterns.",
     icon: BarChart3,
-    image: "/projects/segmentation.png",
+    image: "/images/churn.jpg",
     featured: false,
     github: "https://github.com/FizaAnwar",
     demo: "#",
@@ -588,7 +588,7 @@ function App() {
 
       <footer>
         <div className="container footer-inner">
-          <span>© {new Date().getFullYear()} Fiza Anwar</span>
+          <span>© Fiza Anwar</span>
           <span>Data Science • AI • Machine Learning</span>
         </div>
       </footer>
